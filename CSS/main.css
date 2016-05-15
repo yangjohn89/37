@@ -29,7 +29,7 @@ hr {
 
 /*sup styles*/
 sup {
-	color #999;
+	color: #999;
 	font-weight: normal;
 	font-size: 11px;
 }
@@ -383,5 +383,91 @@ footer p {
 	margin-top: 50px;
 }
 
-
-
+@media (max-width: 852px) {
+		nav {
+			padding: 0;
+		}
+		header {
+			width: 100%;
+		}
+		header h1 {
+			font-size: 16px;
+			font-weight: bold;
+			padding: 0 20px;
+		}
+		header h5 {
+			font-size: 15px;
+			padding: 0 10px;
+		}
+		.products {
+			width: 100%;
+			height: 800px;
+		}
+		.products a {
+			left: 25px;
+		}
+		hr {
+			display: none;
+		}
+		.customers h2 {
+			font-size: 22px;
+			letter-spacing: 0;
+			width: 31%;
+		}
+		.meet {
+			position: initial;
+			margin-left: 50px;
+    		margin-top: 20px;
+		}
+		.arrow-left {
+			display: none;
+		}
+		.globe {
+			display: none;
+		}
+		.customers p {
+			font-size: 16px;
+			width: 30%;
+			margin-left: 10px;
+		}
+		.manifesto h2 {
+			width: 27%;
+			font-size: 21px;
+		}
+		.column, .column-end {
+			float: initial;
+			width: 230px;
+		}
+		.rework h2 {
+			font-size: 22px;
+			letter-spacing: 0;
+			width: 30%;
+		}
+		.arrow-right {
+			display: none;
+		}
+		.crumple {
+			display: none;
+		}
+		.book {
+			float: initial;
+		}
+		.book img {
+			width: 250px;
+		}
+		.quotes {
+			display: none;
+		}
+		.offerings h2 {
+			font-size: 25px;
+			width: 30%;
+		}
+		.offerings > .column {
+			float: initial;
+			width: 265px;
+			margin-left: 0;
+		}
+		.offerings > .column small, .offerings > .column-end small {
+			font-size: 15px;
+		}
+	}
